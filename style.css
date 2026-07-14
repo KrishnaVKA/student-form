@@ -1,0 +1,23 @@
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dataAdd {
+    text-align: center;
+}

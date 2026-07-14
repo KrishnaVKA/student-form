@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="icon" href="images.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="one">
+        <h1>STUDENT FORM</h1>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>Name</td>
+                    <td><input id="Name" type="text" placeholder="Enter Your Name"></td>
+                </tr>
+
+                <tr>
+                    <td>Age</td>
+                    <td><input id="Age" type="number" placeholder="Enter Your Age"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input name="Gender" type="radio" id="Male" value="Male" checked>Male
+                        <input name="Gender" type="radio" id="Female" value="Female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Course</td>
+                    <td>
+                        <select id="Course">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JS</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>E-mail</td>
+                    <td><input id="Email" type="email" placeholder="Enter Your Email"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="button" onclick="updateData()"
+                            style="width:100%;background-color: aquamarine;">Save</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="two">
+    <form>
+        <table border="1">
+            <tr id="dataAdd">
+                <td><h4>NAME</h4></td>
+                <td><h4>AGE</h4></td>
+                <td><h4>COURSE</h4></td>
+                <td><h4>GENDER</h4></td>
+                <td><h4>EMAIL</h4></td>
+                <td><h4>ACTION</h4></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
