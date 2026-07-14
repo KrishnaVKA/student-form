@@ -1,4 +1,4 @@
-# 🎓 Student Registration Form
+# 🧾 Student Registration Form
 
 A simple Student Registration Form built using HTML, CSS, and JavaScript.
 
@@ -25,7 +25,7 @@ Student-Registration-Form/
 ├── style.css
 ├── script.js
 ├── README.md
-└── images/
+└── Screenshots/
 ```
 
 ## Screenshots
