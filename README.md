@@ -2,6 +2,9 @@
 
 A simple Student Registration Form built using HTML, CSS, and JavaScript.
 
+## 🔗 Live Demo
+Check out the project here: [student-form Live]()
+
 ## Features
 
 - Add student details
